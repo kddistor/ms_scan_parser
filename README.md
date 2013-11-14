@@ -13,6 +13,7 @@ are ranked according to triplet sum for the experiment and protein.
 
 
 Scripts: 
+
 1. [scanms_splitter.pl](https://github.com/kddistor/ms_scan_parser/blob/master/scanms_splitter.pl)				#splits file into different treatment, time period, replicates. 18 total
 
 2. [msscan_filterer.pl](https://github.com/kddistor/ms_scan_parser/blob/master/msscan_filterer.pl)					#filters the split files to only have precursors. Also generates a new column, Total Ion Current.
