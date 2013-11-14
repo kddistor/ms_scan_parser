@@ -14,13 +14,21 @@ are ranked according to triplet sum for the experiment and protein.
 
 Scripts: 
 1. scanms_splitter.pl				#splits file into different treatment, time period, replicates. 18 total
+
 2. msscan_parser.pl					#filters the split files to only have precursors. Also generates a new column, Total Ion Current.
+
 3. proteincounter_msscan.pl			#counts the number of protein and identfied filename combinations.
+
 4. protein_collapser.pl				#grabs only the largest identified filenames from the proteins.
+
 5. adder_msscan.pl					#gets the triplet sum for the current for each peptide. Also returns identification of file name.
+
 6. file_collapser_1.pl				#collapses file by type (flg or h20)
+
 7. file_collapser_1.pl				#collapses file by replicate (rep1, rep2, rep3)
+
 8. file_collapser_1.pl				#collapses file by time (10min, 3hrs, 12hrs)
+
 9. bash_MSScan_parser.sh			#shell script to automate 1-8. This is where you input parameters and specify input files and output names.													
 
 ##Modifications to files/scripts before using:
